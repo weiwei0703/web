@@ -1,0 +1,116 @@
+p{
+    color: red;
+}
+.num{
+    color: blue;
+}
+.a{
+    color: aqua;
+}
+.backgray{
+    background-color: gray;
+}
+#id-1:hover{
+    color: beige;
+}
+[href]{
+    size: 10px;
+}
+.con{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.con div{
+    border: 1px solid rebeccapurple;
+    padding: 10px;
+    width: 100px;
+}
+.box-1{
+    flex: 2;
+    order: 2;
+}
+.box-2{
+    flex: 3;
+    order: 1;
+}
+.box-3{
+    order: 3;
+}
+.box-1-1{
+    order: 1;
+}
+.box-2-1{
+    order: 1;
+}
+.box-3-1{
+    order:1;
+}
+.con-1{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    height: 200px;
+    border: 1px solid indianred;
+    justify-content: center;
+    align-items: center;
+}
+.con-2{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+    height: 300px;
+    border: 1px solid indianred;
+    justify-content: space-evenly;
+    align-content: center;
+}
+.con-1 div{
+    border: 1px solid rebeccapurple;
+    padding: 10px;
+    width: 100px;
+}
+.con-2 div{
+    border: 1px solid rebeccapurple;
+    padding: 10px;
+    width: 100px;
+}
+@keyframes change{
+    from {background-color: red;}
+    to {background-color: blue;}
+}
+.box{
+    width: 200px;
+    height: 200px;
+    background-color: gray;
+}
+.box-animation {
+    animation-name: change;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-delay: 2s;
+}
+@keyframes change-1{
+    0%  {background-color: gray;      top: 10px;  left: 10px;}
+    10% {background-color: red;       top: 20px;  left: 20px;}
+    20% {background-color: orange;    top: 30px;  left: 30px;}
+    30% {background-color: yellow;    top: 40px;  left: 40px;}
+    40% {background-color: green;     top: 50px;  left: 50px;}
+    50% {background-color: lightblue; top: 60px;  left: 60px;}
+    60% {background-color: blue;      top: 70px;  left: 70px;}
+    70% {background-color: purple;    top: 80px;  left: 80px;}
+    80% {background-color: white;     top: 90px;  left: 90px;}
+    90% {background-color: black;     top: 100px; left: 100px;}
+    100%{background-color: gray;      top: 110px; left: 110px;}
+
+}
+.box-1{
+    width: 200px;
+    height: 200px;
+    background-color: gray;
+    position: relative;
+}
+.box-animation-1:hover{
+    animation-name: change-1;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
